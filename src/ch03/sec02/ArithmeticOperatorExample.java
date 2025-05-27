@@ -1,4 +1,4 @@
-package ch03.sec01;
+package ch03.sec02;
 
 public class ArithmeticOperatorExample {
     //산술연산자
@@ -13,5 +13,7 @@ public class ArithmeticOperatorExample {
 
         System.out.println("result3: " + ( (double)v1 / v2 ) ); //result3:
 
+        int result4 = v1 % 3;
+        System.out.println("result4: " + result4); //result4: ??
     }
 }
