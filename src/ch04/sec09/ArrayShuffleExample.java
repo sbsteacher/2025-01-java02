@@ -18,7 +18,12 @@ public class ArrayShuffleExample {
     0~9랜덤값 구한다. 예를들어 8이 나왔다. 1번반과 8번방 스와핑한다.
     0~9랜덤값 구한다. 예를들어 5이 나왔다. 2번반과 5번방 스와핑한다.
  */
-
+        for(int i=0; i<arr.length; i++) {
+            int rIdx = (int)(Math.random() * arr.length);
+            int temp = arr[i];
+            arr[i] = arr[rIdx];
+            arr[rIdx] = temp;
+        }
 
         System.out.println( Arrays.toString(arr) );
 
