@@ -5,7 +5,7 @@ public class Student {
 
     public Student() {}
 
-    void introduce() {
+    public void introduce() {
         int num;
         System.out.printf("안녕 내 이름은 %s이라고 해\n", this.name);
     }
