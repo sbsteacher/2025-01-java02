@@ -2,7 +2,7 @@ package ch03.sec11;
 
 public class ScoreMethodExample {
     public static void main(String[] args) {
-        int randomScore = getRandomValue(10, 100); //10~100
+        int randomScore = ScoreMethodExample.getRandomValue(10, 100); //10~100
         // (int)(Math.random() * 91) + 10
         int randomScore2 = getRandomValue(1, 5); //1~5
         // (int)(Math.random() * 5) + 1
