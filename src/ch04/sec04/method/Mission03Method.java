@@ -34,6 +34,7 @@ public class Mission03Method {
         //**
         //***
         //****
+        printTriangleLine(9);
     }
     public static void printTriangleLine(int cnt) {
         for(int i=1; i<=cnt; i++) {

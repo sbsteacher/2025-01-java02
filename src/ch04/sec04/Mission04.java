@@ -7,3 +7,4 @@ public class Mission04 {
         //구구단 출력
     }
 }
+
