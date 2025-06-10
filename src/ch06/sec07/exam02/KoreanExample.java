@@ -7,7 +7,7 @@ public class KoreanExample {
         System.out.println(korean.name); //신사임당
         System.out.println(korean.ssn); //901022-2754312
 
-        Korean korean2 = new Korean("홍길동2", "901123");
+        Korean korean2 = new Korean("크크크", "1234");
         System.out.println(korean2.nation); //대한민국
         System.out.println(korean2.name); //홍길동2
         System.out.println(korean2.ssn); //901123-1543123
