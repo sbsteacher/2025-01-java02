@@ -6,10 +6,10 @@ public class PrimitiveAndRef {
         changeNum(num);
         System.out.println("num: " + num); //10
 
-        Numbox numbox = new Numbox();
-        numbox.num = 10;
-        changeNum(numbox);
-        System.out.println("numbox.num: " + numbox.num); //??????
+        Numbox aaa = new Numbox();
+        aaa.num = 10;
+        changeNum(aaa);
+        System.out.println("numbox.num: " + aaa.num); //
     }
 
     public static void changeNum(int num) {
