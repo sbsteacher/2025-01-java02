@@ -1,6 +1,6 @@
 package ch01.sec08;
 
-// 클래스 Full Name: ch01.sec08.Hello
+// 클래스 Full Name: main.ch01.sec08.Hello
 
 
 /*
