@@ -67,12 +67,6 @@ public class DropShipTest {
         assertEquals(0, dropShip.loadedIndex);
     }
 
-
-
-
-
-
-
     @Test
     public void test0() {
 //

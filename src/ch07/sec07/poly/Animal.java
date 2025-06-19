@@ -9,7 +9,4 @@ public abstract class Animal {
     // 추상 클래스가 되어야 한다.
     public abstract void crying();
 
-
-
-
 }
