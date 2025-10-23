@@ -5,7 +5,7 @@ public class ByteExample {
         //byte: -128 ~ 127
         byte var1 = -128;
         byte var2 = -30;
-        byte var3 = 127;
+        byte var3 = (byte)128;
         System.out.println("var1: " + var1);
         System.out.println("var2: " + var2);
         System.out.println("var3: " + var3);

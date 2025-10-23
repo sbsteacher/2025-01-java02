@@ -6,6 +6,9 @@ public class IndexOfContainsExample {
         int idx = subject.indexOf("프로그래밍");
         System.out.println("idx: " + idx);
 
+        int idx2 = subject.indexOf("닝닝");
+        System.out.println("idx2: " + idx2);
+
         System.out.println(subject.indexOf("그"));
         System.out.println(subject.lastIndexOf("그"));
 

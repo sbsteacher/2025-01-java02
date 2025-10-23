@@ -1,7 +1,7 @@
 package ch08.interfaces;
 
-public class BetaCryptImpl implements CryptInterface {
-    private BetaCrypt crypt = new BetaCrypt();
+public class BravoCryptImpl implements CryptInterface {
+    private BravoCrypt crypt = new BravoCrypt();
 
     @Override
     public void encode(String str) {

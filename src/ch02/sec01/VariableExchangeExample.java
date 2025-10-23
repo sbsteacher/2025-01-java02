@@ -4,7 +4,7 @@ public class VariableExchangeExample {
     public static void main(String[] args) {
         int x = 3, y = 5;
         System.out.printf("x: %d, y: %d\n", x, y);
-        //스와핑으로 처리
+        //  스와핑으로 처리
 //        int tmp = y;
 //        y = x;
 //        x = tmp;

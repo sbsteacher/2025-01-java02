@@ -17,6 +17,9 @@ public class ScoreMethodExample {
         //나머지 'D'리턴
     }
 
+
+
+
     public static char getGrade(int score) {
         if(score > 100 || score < 0) {
             return ' ';

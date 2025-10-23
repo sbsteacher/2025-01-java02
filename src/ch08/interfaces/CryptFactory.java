@@ -4,7 +4,8 @@ public class CryptFactory {
     public static CryptInterface createCrypt(String name) {
         return switch(name) {
             case "alpha" -> new AlpahCryptImpl();
-            case "beta" -> new BetaCryptImpl();
+            case "bravo" -> new BravoCryptImpl();
+            case "charlie" -> new CharlieCryptImpl();
             default -> null;
         };
     }

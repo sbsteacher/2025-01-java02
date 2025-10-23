@@ -2,7 +2,13 @@ package ch02.sec10;
 
 public class PrimitiveAndStringConversionExample {
     public static void main(String[] args) {
-        int value1 = Integer.parseInt("10");
+        double ccc = Double.parseDouble("101.1");
+
+        Double bbb = 101.1;
+
+        double aaa = bbb;
+
+        int value1 = Integer.parseInt("10"); //Wrapper Type
         System.out.println("value1: " + (value1 + 1));
 
         double value2 = Double.parseDouble("3.14"); //Wrapper Type Class

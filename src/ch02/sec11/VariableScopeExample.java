@@ -6,6 +6,9 @@ public class VariableScopeExample {
         if(v1 > 10) {
             int v2 = v1 - 10;
         }
+        int v2 = 10;
+
+
         //int v3 = v1 + v2 + 5;
     }
 }

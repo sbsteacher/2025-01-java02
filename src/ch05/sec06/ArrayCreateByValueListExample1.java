@@ -4,6 +4,8 @@ public class ArrayCreateByValueListExample1 {
     public static void main(String[] args) {
         String[] season = { "Spring", "Summer", "Fall", "Winter" };
 
+        String[] weapon = { "도끼", "칼" };
+
         System.out.println("season[0]: " + season[0]);
         System.out.println("season[1]: " + season[1]);
 

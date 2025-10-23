@@ -8,6 +8,12 @@ public class ArrayCreateByValueListExample2 {
         //System.out.println("main: " + Arrays.toString(scores));
         printItem(scores);
 
+        //printItem({10, 20, 30});
+        int[] aaa = {10, 20, 30};
+        printItem(aaa);
+
+        printItem(new int[]{ 83, 90, 87, 98 });
+
 
         int[] arr = { 10, 20, 30, 40, 50, 100, 200 };
         printItem(arr);

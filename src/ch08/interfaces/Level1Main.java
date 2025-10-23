@@ -9,7 +9,7 @@ public class Level1Main {
 //
 //        crypt.mbb(password);
 
-        BetaCrypt crypt = new BetaCrypt();
+        BravoCrypt crypt = new BravoCrypt();
         crypt.mcc(password);
 
         crypt.mdd(password);

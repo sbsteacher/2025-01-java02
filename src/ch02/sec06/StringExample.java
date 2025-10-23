@@ -6,6 +6,15 @@ public class StringExample {
         //char ch2 = ""; //""는 문자열 타입이고 문자타입에 저장 불가능
 
         String name = "홍길동";
+        String name2 = "홍길동";
+
+        System.out.println("name == name2 : " + (name == name2));
+
+        String name1 = new String("홍길동");
+        String name3 = new String("홍길동");
+
+        System.out.println("name1 == name3 : " + (name1 == name3));
+
         String job = "프로그래머";
         System.out.println(name);
         System.out.println(job);

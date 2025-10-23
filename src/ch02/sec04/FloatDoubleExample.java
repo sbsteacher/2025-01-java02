@@ -4,7 +4,12 @@ public class FloatDoubleExample {
     public static void main(String[] args) {
 
         //실수 리터럴을 float변수에 대입할 때는 항상 끝에 'f' or 'F'를 붙인다.
-        float var0 = 0.1F;
+        long l1 = 10L;
+        float f1 = l1;
+
+        double var000 = 0.1f;
+
+        float var0 = 0.1f;
         float var00 = (float)0.1;
 
         //정밀도 확인

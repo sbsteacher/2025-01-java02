@@ -16,11 +16,15 @@ public class IncreaseDecreaseOperatorExample {
         System.out.println("y=" + y);
         System.out.println("-----------------");
 
+        x = 10;
+
         z = x++;
         System.out.println("z=" + z); //12
         System.out.println("x=" + x); //13
 
         System.out.println("-----------------");
+
+        x = 10;
 
         z = ++x;
         System.out.println("2. z=" + z); // 14

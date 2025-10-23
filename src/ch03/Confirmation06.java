@@ -7,14 +7,14 @@ public class Confirmation06 {
 
         System.out.println( x > 7 );
         System.out.println( y <= 5 );
-        System.out.println( x > 7 && y <= 5 );
+        System.out.println( x > 7 && y <= 5 ); //t
 
         System.out.println( x % 3 );
         System.out.println( x % 3 == 2);
 
         System.out.println( y % 2 );
         System.out.println( y % 2 != 1 );
-        System.out.println( x % 3 == 2 || y % 2 != 1 );
+        System.out.println( x % 3 == 2 || y % 2 != 1 ); //f
 
 
     }
