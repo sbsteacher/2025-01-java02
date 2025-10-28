@@ -19,5 +19,7 @@ public class Poly2Example {
 
         System.out.println("잔액: " + buyer.getMoney());
         System.out.println("보너스 : " + buyer.getBonusPoint());
+
+
     }
 }

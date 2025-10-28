@@ -13,19 +13,22 @@ public class DriverExample {
         Vehicle vehicle = new Vehicle() {
             @Override
             public void run() {
-                System.out.println("버스가 달린다.");
+                System.out.println("익명 버스가 달린다.");
             }
 
             @Override
             public void stop() {
-                System.out.println("버스가 멈춘다.");
+                System.out.println("익명 버스가 멈춘다.");
             }
 
             public void openBackDoor() {
                 System.out.println("버스 뒷 문이 열린다.");
             }
         };
+        driver.drive(vehicle);
 
-        Vehicle vehicle2 = new Bus();
+
+        Vehicle bus2 = new Bus();
+        driver.drive(bus2);
     }
 }

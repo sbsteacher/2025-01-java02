@@ -9,5 +9,9 @@ public class CarExample {
         System.out.println("현재속도: " + car.speed);
 
         Car car2 = new Car();
+        System.out.println("모델명: " + car2.model); //E클래스
+        System.out.println("시동여부: " + car2.start); //true
+        System.out.println("현재속도: " + car2.speed); //40
+
     }
 }

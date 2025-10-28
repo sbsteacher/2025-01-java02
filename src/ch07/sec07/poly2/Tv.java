@@ -10,6 +10,8 @@ public class Tv extends Product {
 
     @Override
     public String toString() {
+        //return String.format("Tv - %d만원", getPrice());
+        //return "Tv - 160만원";
         return "Tv";
     }
 }

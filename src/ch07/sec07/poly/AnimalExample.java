@@ -9,10 +9,10 @@ public class AnimalExample {
         Dog dog = new Dog();
         BullDog bullDog = new BullDog();
 
-        animalCrying(cat);
-        animalCrying(tiger);
-        animalCrying(cow);
-        animalCrying(dog);
+//        animalCrying(cat);
+//        animalCrying(tiger);
+//        animalCrying(cow);
+//        animalCrying(dog);
         animalCrying(bullDog);
         //월~ 월~
         //불독이 쩜프 쩜프

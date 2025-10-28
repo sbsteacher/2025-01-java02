@@ -4,6 +4,8 @@ public class Car {
     public String model;
     public int speed;
 
+    public Car() {}
+
     public Car(String model) {
         this.model = model;
     }
